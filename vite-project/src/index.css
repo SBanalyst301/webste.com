@@ -1,0 +1,155 @@
+.navbar {
+    display: flex;
+    align-items: center; /* Align items in the center */
+    justify-content: space-between; /* Push elements apart */
+    padding: 10px 20px;
+}
+
+.navh1 {
+    font-size: 35px;
+    color: black;
+    margin: 0; /* Remove default margin */
+}
+
+.navh1 span {
+    color: orange;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Add spacing between links */
+    margin: 0;
+    padding: 0;
+}
+
+.ul a {
+    text-decoration: none;
+    color: black;
+}
+.navbar .ul button{
+    color:white;
+    background-color:red;
+    padding:0px 24px;
+    height:33px;
+    border:none;
+}
+.ul li{
+    padding:0px 20px;
+}
+.appnav {
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    margin-left:19px;
+  }
+  .downul {
+    display: flex;
+    list-style: none; /* Removes bullet points */
+    gap: 15px; /* Adds space between items */
+    padding: 0;
+    margin: 0;
+    /* transition: color s ease-in-out; */
+    
+}
+.downul li{
+    padding: 5px 10px;
+}
+.efect:hover{
+    color: blue;
+    
+}
+.apphome{
+background-color:#EAF1F1;
+}
+.dot{
+    border-bottom: 2px dotted black; 
+    font-size:50px;
+}
+.hometextdown {
+    display: flex;
+    gap: 14px; 
+    flex-wrap: wrap; 
+
+  }
+  .hometext{
+    display:flex;
+    /* justify-content:space-between; */
+    /* align-items:; */
+    margin-left:250px;
+    flex-direction:column;
+    /* margin-top:px; */
+  }
+  .nodot{
+    font-size:50px;
+  }
+  .hometextup{
+    margin-left:200px;
+  }
+  .hometextlast{
+    margin-top:30px;
+  }
+  .text-icon-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
+  }
+  .icon {
+    font-size: 24px; 
+  }
+  .texticon {
+    width: 200px; /* Adjust width as needed */
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    height: 250px;
+    background-color: #FFFFFF; /* Ensure background applies only to card */
+    margin-top:40px;
+}
+
+  .secmain {
+    display: flex;
+    gap: 25px;
+    justify-content: center; /* Centers all cards in one row */
+    white-space: nowrap; /* Prevents cards from wrapping */
+    overflow-x: auto; /* Adds horizontal scrolling if needed */
+}
+
+
+ .tittle{
+    color:#807FCD;
+ }
+ 
+ .price{
+    font-size:50px;
+    font-weight: 600;
+ }
+ .card-button{
+    height:35px;
+    width:175px;
+    margin-top:25px;
+ }
+
+ .homecardmain {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    display: flex;
+    justify-content: center;
+    background-color: transparent; /* Remove background if needed */
+}
+
+
+
+ .apphome{
+    height:500px;
+    /* background-color:white; */
+ }
+
+ .texticon {
+    width: 200px; /* Adjust width as needed */
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    height:225px;
+}
